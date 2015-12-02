@@ -1,43 +1,51 @@
 header {
-	background-color: #669900;
+	background-color: white;
 	border: 2px solid white;
 	text-align: center;
 	opacity:.85;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	color:#559e83;
 }
 header p {
 	margin: 0px;
 }
 
 header a {
+	font-family: 'Rock Salt', cursive;
 	font-size: 75px;
-	color:#403030;
+	color:black;
 	font-weight: bold;
 	text-decoration: none;
-	font-family: 'Amatic SC', cursive;
 	margin:0px;
 }
+
+header a:hover {
+	color:#506070;
+}
 body {
-	background: url("https://media.giphy.com/media/5xtDarlxtDCeptXlCfu/giphy.gif");
-	width:975px;
 	height:1000px;
-	background-size: 100% 110%;
+	background-size: 100% 120%;
 	margin: auto;
 	background-repeat: no-repeat;
 }
 
 .body-links {
+	background: url("https://images.unsplash.com/photo-1422665717225-1a37f226c92a?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
 	background-color: transparent;
 	height: 900px;
-	width: 971px;
 	border: 2px solid white;
 	margin: auto;
+	overflow: hidden;
 }
 
 .body-links a {
-	font-size: 40px;
+	font-size: 29px;
 	color:#403030;
 	text-decoration: none;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-weight: bold;
 }
 
 .links {
@@ -51,26 +59,19 @@ body {
 .links a div {
 	width: 215px;
 	height: 215px;
-	background-color: #669900;
+	background-color: #1b85b8;
 	float: left;
 	border: 2px solid white;
 	margin:23px;
 	text-align: center;
 	opacity:.85;
-	transform: translate3D(0,0,0);
 }
 
 .links a div:hover {
-	background-color: yellow;
-	transform: rotateY(180deg);
-	transition: 1s;
-}
-.front {
-
-}
-
-.back {
-	
+	background-color: #559e83;
+	color:black;
+	transform: translate(10px, 10px);
+	transition: .75s;
 }
 
 .Nav {
@@ -79,16 +80,22 @@ body {
 	width:500px;
 	height:100px;
 	margin: auto;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 25px;
 }
 
 .Nav a div {
-	background-color: #669900;
+	background-color: #ae5a41;
 	color:#403030;
 	float:left;
-	width: 100px;
+	width: 105px;
 	height:50px;
 	border: 2px solid white;
-	margin:9px;
+	margin:8px;
 	text-align: center;
 	opacity:.85;
+}
+
+.Nav a div:hover {
+	color:yellow;
 }
