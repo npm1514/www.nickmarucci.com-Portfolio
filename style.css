@@ -29,6 +29,7 @@ body {
 	background-size: 100% 120%;
 	margin: auto;
 	background-repeat: no-repeat;
+
 }
 
 .body-links {
@@ -70,7 +71,7 @@ body {
 .links a div:hover {
 	background-color: #559e83;
 	color:black;
-	transform: translate(10px, 10px);
+	transform: translate(8px, 8px);
 	transition: .75s;
 }
 
@@ -82,6 +83,7 @@ body {
 	margin: auto;
 	font-family: 'Shadows Into Light Two', cursive;
 	font-size: 25px;
+	font-weight: bold;
 }
 
 .Nav a div {
@@ -98,4 +100,8 @@ body {
 
 .Nav a div:hover {
 	color:yellow;
+}
+
+span {
+	color: red;
 }
